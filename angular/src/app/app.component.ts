@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 // The "export" keyboard is used so other components can use this class.
 export class AppComponent {
   // Name that we will be using for binding, type and default value.
-  pageTitle: string = 'List';
+  pageTitle: string = 'Folk and Salsa Music';
 }
 
-console.log("app.component is working.");
+console.log("AppComponent is working.");
