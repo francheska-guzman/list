@@ -13,7 +13,7 @@ import { ListOfSongsComponent } from './list-of-songs/list-of-songs.component';
 // The "export" keyboard is used so other components can use this class.
 export class AppComponent {
   // Name that we will be using for binding, type and default value.
-  pageTitle: string = 'Folk and Salsa Music';
+  pageTitle: string = 'Folkloric and Salsa Music';
 }
 
 console.log("AppComponent is working.");
