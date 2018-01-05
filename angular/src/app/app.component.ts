@@ -1,4 +1,4 @@
-// We need to "import" { the Component decorator } from the Angular library module.
+// We need to "import" { the Component decorator } from 'the Angular library module'.
 import { Component } from '@angular/core';
 
 // Component decorator.
