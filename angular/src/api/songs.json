@@ -1,0 +1,52 @@
+[
+    {
+        "songId": 1,
+        "songName": "",
+        "time": "",
+        "artist": "",
+        "album": "",
+        "genre": "",
+        "starRating": 4.2,
+        "imageUrl": ""
+    },
+    {
+        "songId": 2,
+        "songName": "Olé Maja",
+        "time": "3:19",
+        "artist": "Quique Domenech",
+        "album": "Lo Mejor de Quique Domenech",
+        "genre": "Folk",
+        "starRating": 5.0,
+        "imageUrl": "https://i.scdn.co/image/3c3fa25c32e690e9f23f53c2d1ccef500398af71"
+    },
+    {
+        "songId": 3,
+        "songName": "",
+        "time": "",
+        "artist": "",
+        "album": "",
+        "genre": "",
+        "starRating": 3.9,
+        "imageUrl": ""
+    },
+    {
+        "songId": 4,
+        "songName": "",
+        "time": "",
+        "artist": "",
+        "album": "",
+        "genre": "",
+        "starRating": 4.9,
+        "imageUrl": ""
+    },
+    {
+        "songId": 5,
+        "songName": "",
+        "time": "",
+        "artist": "",
+        "album": "",
+        "genre": "",
+        "starRating": 4.3,
+        "imageUrl": ""
+    }
+]
