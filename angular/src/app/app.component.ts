@@ -1,5 +1,6 @@
 // We need to "import" { the Component decorator } from 'the Angular library module'.
 import { Component } from '@angular/core';
+import { ListOfSongsComponent } from './list-of-songs/list-of-songs.component';
 
 // Component decorator.
 @Component({
