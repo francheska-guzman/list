@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list-of-songs.component.css']
 })
 export class ListOfSongsComponent implements OnInit {
-
-  constructor() { }
+  pageTitle: string = 'List of Songs';
+  
+  constructor() { 
+  }
 
   ngOnInit() {
   }
