@@ -59,4 +59,24 @@
         "starRating": 4.7,
         "imageUrl": "https://i.scdn.co/image/583eb7f7dacf70ca033f076228fe1021bebeee8a"
     },
+    {
+        "songId": 7,
+        "songName": "Valió la pena",
+        "time": "4:52",
+        "artist": "Mark Anthony",
+        "album": "Valió la pena",
+        "genre": "Salsa",
+        "starRating": 4.4,
+        "imageUrl": "https://i.scdn.co/image/3529b62882eb34f27558d89c3df11c33f22b8a46"
+    },
+    {
+        "songId": 8,
+        "songName": "Perdóname",
+        "time": "7:55",
+        "artist": "Gilberto Santa Rosa",
+        "album": "Punto de Vista",
+        "genre": "Salsa",
+        "starRating": 4.8,
+        "imageUrl": "https://i.scdn.co/image/8de15a837f5006df898284000ce8574e2140b65a"
+    },
 ]
