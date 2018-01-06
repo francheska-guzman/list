@@ -5,8 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './list-of-songs.component.html',
   styleUrls: ['./list-of-songs.component.css']
 })
-export class ListOfSongsComponent implements OnInit {
+export class ListOfSongsComponent {
   pageTitle: string = 'List of Songs';
+//   imageWidth: number = 100;
+//   imageMargin: number = 2;
+//   showImage: boolean = false;
   // In typescript "any" is a data type.
   songs: any[] = [
     {
@@ -120,11 +123,10 @@ export class ListOfSongsComponent implements OnInit {
         "songUrl": ""
     },
   ];
-  constructor() { 
-  }
 
-  ngOnInit() {
-  }
+//   toggleImage(): void {
+//       this.showImage = !this.showImage;
+//   }
 
 }
 
