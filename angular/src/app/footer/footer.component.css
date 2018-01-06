@@ -1,12 +1,3 @@
 p.footer {
     text-align: center;
 }
-
-.url {
-    color: #27A1E8;
-}
-
-.url:hover {
-    color: #2ABBF9;
-    text-decoration: none;
-}

@@ -3,13 +3,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-list-of-songs',
   templateUrl: './list-of-songs.component.html',
-  styleUrls: ['./list-of-songs.component.css']
+  styleUrls: ['../app.component.css', './list-of-songs.component.css']
 })
 export class ListOfSongsComponent {
   pageTitle: string = 'List of Songs';
-//   imageWidth: number = 100;
-//   imageMargin: number = 2;
-//   showImage: boolean = false;
+  // imageWidth: number = 100;
+  // imageMargin: number = 2;
+  // showImage: boolean = false;
   // In typescript "any" is a data type.
   songs: any[] = [
     {

@@ -1,15 +1,20 @@
 .btn {
     padding: 0;
+    background: none !important;
 }
 
 .btn-primary {
-    background-color: #FFF;
-    color: #27A1E8;
+    color: #366607;
     border: none;
 }
 
 .btn-primary:hover {
-    color: #2ABBF9;
+    color: #60BA09;
+}
+
+tr {
+    border: .1px;
+    border-color: #F2F2F2;
 }
 
 th {
@@ -18,4 +23,12 @@ th {
 
 .wrapper-filter {
     margin: 20px 0;
+}
+
+.even {
+    background-color: #FCFCFC;
+}
+
+.odd {
+    background-color: #FEFEFE;
 }

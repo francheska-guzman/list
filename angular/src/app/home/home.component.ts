@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  template: `<h2>{{homeTitle}}</h2>`,
+  styleUrls: ['../app.component.css', './home.component.css']
 })
 export class HomeComponent {
   homeTitle: string = 'Folk and Salsa Music';

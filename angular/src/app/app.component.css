@@ -5,3 +5,12 @@ h1 {
 .wrapper {
     margin: 50px;
 }
+
+.url {
+    color: #366607;
+}
+
+.url:hover {
+    color: #60BA09;
+    text-decoration: none;
+}

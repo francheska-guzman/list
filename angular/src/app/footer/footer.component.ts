@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   <p class='footer'>
   Handmade my <a class='url' target='_blank' href='http://francheskaguzman.io'>Francheska Guzman</a>.
   </p>`,
-  styleUrls: ['./footer.component.css']
+  styleUrls: ['../app.component.css', './footer.component.css']
 })
 export class FooterComponent implements OnInit {
 
