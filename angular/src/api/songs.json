@@ -28,5 +28,35 @@
         "genre": "Salsa",
         "starRating": 3.9,
         "imageUrl": "https://i.scdn.co/image/bb04ba14771bcb7b9b3b8d9272dbcf3edd451c63"
-    }
+    },
+    {
+        "songId": 4,
+        "songName": "Y no hago más na'",
+        "time": "4:58",
+        "artist": "El Gran Combo de Puerto Rico",
+        "album": "La Universidad de la Salsa",
+        "genre": "Salsa",
+        "starRating": 4.8,
+        "imageUrl": "https://i.scdn.co/image/bd133f28a29442e2b420ca2fae2dca49abf24349"
+    },
+    {
+        "songId": 5,
+        "songName": "Brujería",
+        "time": "3:24",
+        "artist": "El Gran Combo de Puerto Rico",
+        "album": "Aqui No Se Sienta Nadie",
+        "genre": "Salsa",
+        "starRating": 4.6,
+        "imageUrl": "https://i.scdn.co/image/58433db130f8450f1e5ecd60a2b91aa062ff25bd"
+    },
+    {
+        "songId": 6,
+        "songName": "Así es mi Tierra",
+        "time": "4:23",
+        "artist": "Los Hispanos",
+        "album": "15 Éxitos Navideños",
+        "genre": "Folk",
+        "starRating": 4.7,
+        "imageUrl": "https://i.scdn.co/image/583eb7f7dacf70ca033f076228fe1021bebeee8a"
+    },
 ]
