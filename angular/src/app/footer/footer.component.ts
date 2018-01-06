@@ -18,4 +18,4 @@ export class FooterComponent implements OnInit {
 
 }
 
-console.log("FooterComponent is working.");
+// console.log("FooterComponent is working.");

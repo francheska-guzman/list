@@ -118,4 +118,4 @@ export class ListOfSongsComponent implements OnInit {
 
 }
 
-console.log("ListOfSongsComponent is working.");
+// console.log("ListOfSongsComponent is working.");

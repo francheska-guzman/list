@@ -15,4 +15,4 @@ export class HomeComponent {
 
 }
 
-console.log("HomeComponent is working.");
+// console.log("HomeComponent is working.");
