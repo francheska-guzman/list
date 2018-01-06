@@ -17,7 +17,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "Nuestra Música",
         "genre": "Salsa",
         "starRating": 4.5,
-        "imageUrl": "https://i.scdn.co/image/404f1635238ba205e075539a174482ef432e4269"
+        "imageUrl": "https://i.scdn.co/image/404f1635238ba205e075539a174482ef432e4269",
+        "songUrl": ""
     },
     {
         "songId": 2,
@@ -27,7 +28,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "Lo Mejor de Quique Domenech",
         "genre": "Folk",
         "starRating": 4.9,
-        "imageUrl": "https://i.scdn.co/image/3c3fa25c32e690e9f23f53c2d1ccef500398af71"
+        "imageUrl": "https://i.scdn.co/image/3c3fa25c32e690e9f23f53c2d1ccef500398af71",
+        "songUrl": ""
     },
     {
         "songId": 3,
@@ -37,7 +39,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "Fuego en el 23",
         "genre": "Salsa",
         "starRating": 4.3,
-        "imageUrl": "https://i.scdn.co/image/bb04ba14771bcb7b9b3b8d9272dbcf3edd451c63"
+        "imageUrl": "https://i.scdn.co/image/bb04ba14771bcb7b9b3b8d9272dbcf3edd451c63",
+        "songUrl": ""
     },
     {
         "songId": 4,
@@ -47,7 +50,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "La Universidad de la Salsa",
         "genre": "Salsa",
         "starRating": 4.8,
-        "imageUrl": "https://i.scdn.co/image/bd133f28a29442e2b420ca2fae2dca49abf24349"
+        "imageUrl": "https://i.scdn.co/image/bd133f28a29442e2b420ca2fae2dca49abf24349",
+        "songUrl": ""
     },
     {
         "songId": 5,
@@ -57,7 +61,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "Aqui No Se Sienta Nadie",
         "genre": "Salsa",
         "starRating": 4.6,
-        "imageUrl": "https://i.scdn.co/image/58433db130f8450f1e5ecd60a2b91aa062ff25bd"
+        "imageUrl": "https://i.scdn.co/image/58433db130f8450f1e5ecd60a2b91aa062ff25bd",
+        "songUrl": ""
     },
     {
         "songId": 6,
@@ -67,7 +72,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "15 Éxitos Navideños",
         "genre": "Folk",
         "starRating": 4.7,
-        "imageUrl": "https://i.scdn.co/image/583eb7f7dacf70ca033f076228fe1021bebeee8a"
+        "imageUrl": "https://i.scdn.co/image/583eb7f7dacf70ca033f076228fe1021bebeee8a",
+        "songUrl": ""
     },
     {
         "songId": 7,
@@ -77,7 +83,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "Valió la pena",
         "genre": "Salsa",
         "starRating": 4.4,
-        "imageUrl": "https://i.scdn.co/image/3529b62882eb34f27558d89c3df11c33f22b8a46"
+        "imageUrl": "https://i.scdn.co/image/3529b62882eb34f27558d89c3df11c33f22b8a46",
+        "songUrl": ""
     },
     {
         "songId": 8,
@@ -87,7 +94,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "Punto de Vista",
         "genre": "Salsa",
         "starRating": 4.8,
-        "imageUrl": "https://i.scdn.co/image/8de15a837f5006df898284000ce8574e2140b65a"
+        "imageUrl": "https://i.scdn.co/image/8de15a837f5006df898284000ce8574e2140b65a",
+        "songUrl": ""
     },
     {
         "songId": 9,
@@ -97,7 +105,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "En Armonía",
         "genre": "Folk",
         "starRating": 4.2,
-        "imageUrl": "https://i.scdn.co/image/7d34b5e4ec49e970f9f805f8036791878e796a46"
+        "imageUrl": "https://i.scdn.co/image/7d34b5e4ec49e970f9f805f8036791878e796a46",
+        "songUrl": ""
     },
     {
         "songId": 10,
@@ -107,7 +116,8 @@ export class ListOfSongsComponent implements OnInit {
         "album": "Determination",
         "genre": "Salsa",
         "starRating": 4.5,
-        "imageUrl": "https://i.scdn.co/image/74756fe2fb2fe68d1e7be3c8096391466b9232f5"
+        "imageUrl": "https://i.scdn.co/image/74756fe2fb2fe68d1e7be3c8096391466b9232f5",
+        "songUrl": ""
     },
   ];
   constructor() { 
