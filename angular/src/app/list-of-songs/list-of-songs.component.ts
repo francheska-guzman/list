@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['../app.component.css', './list-of-songs.component.css']
 })
 export class ListOfSongsComponent {
-  pageTitle: string = 'List of Songs';
+  pageTitle: string = 'Folk and Salsa Music';
   // imageWidth: number = 100;
   // imageMargin: number = 2;
   // showImage: boolean = false;
