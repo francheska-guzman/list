@@ -4,12 +4,12 @@
 
 .btn-primary {
     background-color: #FFF;
-    color: #09a1bc;
+    color: #27A1E8;
     border: none;
 }
 
 .btn-primary:hover {
-    color: rgb(16, 203, 236);
+    color: #2ABBF9;
 }
 
 th {
