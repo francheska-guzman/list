@@ -1,0 +1,17 @@
+.btn {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #FFF;
+    color: #09a1bc;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: rgb(16, 203, 236);
+}
+
+th {
+    text-align: center;
+}

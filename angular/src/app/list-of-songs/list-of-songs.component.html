@@ -19,24 +19,24 @@
               *ngIf='songs && songs.length'>
         <thead>
           <tr>
-            <th>
-              <button class='btn btn-primary'>Show Album Cover</button>
-            </th>
+            <th>Play</th>
             <th>Name</th>
             <th>Time</th>
             <th>Artist</th>
             <th>Album</th>
             <th>Genre</th>
             <th>Rating</th>
+            <th></th>
           </tr>
           <tr *ngFor='let song of songs'>
-            <td></td>
+            <td>{{song.playSong}}</td>
             <td>{{song.songName}}</td>
             <td>{{song.time}}</td>
             <td>{{song.artist}}</td>
             <td>{{song.album}}</td>
             <td>{{song.genre}}</td>
             <td>{{song.starRating}}</td>
+            <td><button class='btn btn-primary'>Lyrics</button></td>
           </tr>
         </thead>
         <tbody>
