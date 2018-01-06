@@ -36,7 +36,7 @@ export class ListOfSongsComponent implements OnInit {
         "artist": "La Sonora Ponceña",
         "album": "Fuego En El 23",
         "genre": "Salsa",
-        "starRating": 3.9,
+        "starRating": 4.3,
         "imageUrl": "https://i.scdn.co/image/bb04ba14771bcb7b9b3b8d9272dbcf3edd451c63"
     },
     {
@@ -88,6 +88,26 @@ export class ListOfSongsComponent implements OnInit {
         "genre": "Salsa",
         "starRating": 4.8,
         "imageUrl": "https://i.scdn.co/image/8de15a837f5006df898284000ce8574e2140b65a"
+    },
+    {
+        "songId": 9,
+        "songName": "Defensa al Jíbaro",
+        "time": "3:58",
+        "artist": "Tony Croatto y Quique Domenech",
+        "album": "En Armonía",
+        "genre": "Folk",
+        "starRating": 4.2,
+        "imageUrl": "https://i.scdn.co/image/7d34b5e4ec49e970f9f805f8036791878e796a46"
+    },
+    {
+        "songId": 10,
+        "songName": "Yambeque",
+        "time": "6:22",
+        "artist": "La Sonora Ponceña",
+        "album": "Determination",
+        "genre": "Salsa",
+        "starRating": 4.5,
+        "imageUrl": "https://i.scdn.co/image/74756fe2fb2fe68d1e7be3c8096391466b9232f5"
     },
   ];
   constructor() { 
