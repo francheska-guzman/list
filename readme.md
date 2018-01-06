@@ -1,4 +1,4 @@
-# <a id="project">Music</a>
+# <a id="project">Rhythm</a>
 
 ### Table of contents
 
@@ -45,6 +45,6 @@ Developed by Francheska Guzman
 
 ## <a id="deployment">How to see</a>
 
-### Music App: [https://francheska-guzman.github.io/music](https://francheska-guzman.github.io/music)
+### Music App: [https://francheska-guzman.github.io/rhythm](https://francheska-guzman.github.io/rhythm)
 
 #### [Go back to the Table of Contents](#project)
