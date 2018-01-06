@@ -28,6 +28,8 @@
             <th>Rating</th>
             <th></th>
           </tr>
+        </thead>
+        <tbody>
           <tr *ngFor='let song of songs'>
             <td>{{song.playSong}}</td>
             <td>{{song.songName}}</td>
@@ -38,9 +40,6 @@
             <td>{{song.starRating}}</td>
             <td><button class='btn btn-primary'>Lyrics</button></td>
           </tr>
-        </thead>
-        <tbody>
-
         </tbody>
       </table>
     </div>
