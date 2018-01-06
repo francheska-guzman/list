@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'list-of-songs',
+  selector: 'app-list-of-songs',
   templateUrl: './list-of-songs.component.html',
   styleUrls: ['./list-of-songs.component.css']
 })
@@ -31,10 +31,10 @@ export class ListOfSongsComponent implements OnInit {
     },
     {
         "songId": 3,
-        "songName": "Fuego en el 23",
+        "songName": "¡Fuego en el 23!",
         "time": "5:55",
         "artist": "La Sonora Ponceña",
-        "album": "Fuego En El 23",
+        "album": "Fuego en el 23",
         "genre": "Salsa",
         "starRating": 4.3,
         "imageUrl": "https://i.scdn.co/image/bb04ba14771bcb7b9b3b8d9272dbcf3edd451c63"
