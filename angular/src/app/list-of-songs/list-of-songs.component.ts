@@ -31,8 +31,6 @@ export class ListOfSongsComponent implements OnInit {
       this.filteredSongs = this.listFilter ? this.performFilter(this.listFilter) : this.songs;
   }
 
-  listFilter: string = '';
-  filteredSongs: ISongs[];
   songs: ISongs[] = [
     {
         'songId': 1,
