@@ -34,9 +34,10 @@ Create this app while learning Angular 2 on my own.
 ## <a id="resources">Resources</a>
 
 - [Angular Documentation](https://angular.io/guide/quickstart)
+- [Angular: Getting Started (Pluralsight)](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents) by Deborah Kurata
 
 ## <a id="deployment">How to see</a>
 
-### Rhythm app: [https://francheska-guzman.github.io/rhythm](https://francheska-guzman.github.io/rhythm)
+### Rhythm App: [https://francheska-guzman.github.io/rhythm](https://francheska-guzman.github.io/rhythm)
 
 #### [Go back to the Table of Contents](#project)
