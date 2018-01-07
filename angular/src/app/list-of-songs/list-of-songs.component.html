@@ -1,5 +1,6 @@
 <div class='panel panel-primary'>
   <div class='panel-heading'>
+    <!-- Interpolation: -->
     <h2>{{ pageTitle }}</h2>
   </div>
   <div class='panel-body'>
@@ -9,17 +10,19 @@
         <input class='wrapper-filter' type='text'
           [(ngModel)]='listFilter' />
           <!-- 
-            [()] is called "Banana in a box" 
+            [()] is called 'Banana in a box' 
             and ngModel is a directive. 
+            It is a two-way binding.
           -->
       </div>
     </div>
     <div class='row'>
       <div class='col-md-6'>
-        <h3>Filtered by: <span class="capitalize">{{ listFilter }}</span></h3>
+        <h3>Filtered by: <span class='capitalize'>{{ listFilter }}</span></h3>
       </div>
     </div>
     <!--
+    This is an event binding.
     <div>
       <button class='btn btn-primary'
               (click)='toggleImage()'>
@@ -45,12 +48,14 @@
           </tr>
         </thead>
         <!-- When using *ngFor, we have to define the local
-        variable with "let" and then specify "of" to iterate
+        variable with 'let' and then specify 'of' to iterate
         over the list. -->
         <tbody>
           <tr *ngFor='let song of songs; let i=index; let o=odd; let e=even;'
           [ngClass]='{ odd: o, even: e }'>
-            <!-- <td>
+            <!-- 
+            This is a property binding.
+            <td>
               <img *ngIf='showImage'
               [src]='song.imageUrl'
               [title]='song.songName'
@@ -58,12 +63,12 @@
               [style.margin.px] = 'imageMargin'>
             </td> -->
             <td></td><!-- Play button. -->
-            <td>{{song.songName}}</td>
-            <td>{{song.time}}</td>
-            <td>{{song.artist}}</td>
-            <td>{{song.album}}</td>
-            <td>{{song.genre}}</td>
-            <td>{{song.starRating}}</td>
+            <td>{{ song.songName }}</td>
+            <td>{{ song.time }}</td>
+            <td>{{ song.artist }}</td>
+            <td>{{ song.album }}</td>
+            <td>{{ song.genre }}</td>
+            <td>{{ song.starRating }}</td>
             <td>
               <button class='btn btn-primary'>Details</button>
             </td>

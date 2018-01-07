@@ -1,4 +1,4 @@
-// We need to "import" { the Component decorator } from 'the Angular library module'.
+// We need to 'import' { the Component decorator } from 'the Angular library module'.
 import { Component } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { ListOfSongsComponent } from './list-of-songs/list-of-songs.component';
@@ -11,9 +11,9 @@ import { ListOfSongsComponent } from './list-of-songs/list-of-songs.component';
   styleUrls: ['./app.component.css']
 })
 
-// The "export" keyboard is used so other components can use this class.
+// The 'export' keyboard is used so other components can use this class.
 export class AppComponent {
 
 }
 
-console.log("AppComponent is working.");
+console.log('AppComponent is working.');
