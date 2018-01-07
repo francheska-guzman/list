@@ -88,7 +88,7 @@ export class ListOfSongsComponent {
         "songId": 7,
         "songName": "Valió la pena",
         "time": "4:52",
-        "artist": "Mark Anthony",
+        "artist": "Marc Anthony",
         "album": "Valió la pena",
         "genre": "Salsa",
         "starRating": 4.4,
