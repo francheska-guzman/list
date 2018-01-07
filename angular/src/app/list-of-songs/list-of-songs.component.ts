@@ -2,6 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 // Importing interface:
 import { ISongs } from './songs';
+import { StarComponent } from '../shared/star/star.component';
 
 @Component({
   selector: 'app-list-of-songs',

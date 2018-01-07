@@ -11,8 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { ListOfSongsComponent } from './list-of-songs/list-of-songs.component';
 import { FooterComponent } from './footer/footer.component';
 
-// Importing pipes.
 import { ConvertToArrowPipe } from './shared/convert-to-arrow.pipe';
+import { StarComponent } from './shared/star/star.component';
 
 @NgModule({
   // Directives components in pipes are declared in declarations array.
@@ -21,7 +21,8 @@ import { ConvertToArrowPipe } from './shared/convert-to-arrow.pipe';
     HomeComponent,
     ListOfSongsComponent,
     FooterComponent,
-    ConvertToArrowPipe
+    ConvertToArrowPipe,
+    StarComponent
   ],
   // Directives from other sources (including Angular itself) 
   // and third parties are declared here:
