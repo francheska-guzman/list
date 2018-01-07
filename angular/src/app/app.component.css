@@ -14,3 +14,11 @@
 .center {
     text-align: center;
 }
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
