@@ -5,6 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './list-of-songs.component.html',
   styleUrls: ['../app.component.css', './list-of-songs.component.css']
 })
+
+  // Pipes transform bound properties before display.
+
 export class ListOfSongsComponent {
   pageTitle: string = 'Folk and Salsa Music';
   // imageWidth: number = 100;

@@ -10,3 +10,7 @@
     color: #60BA09;
     text-decoration: none;
 }
+
+.capitalize {
+    text-transform: capitalize;
+}
