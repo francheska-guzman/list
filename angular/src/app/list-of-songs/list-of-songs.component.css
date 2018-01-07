@@ -33,6 +33,10 @@ th {
     background-color: #fafafa;
 }
 
+td {
+    font-size: 14px;
+}
+
 .wrapper-filter {
     margin: 20px 0;
 }

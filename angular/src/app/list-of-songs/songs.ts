@@ -1,4 +1,5 @@
 // Using the 'I' prefex to distinguish the interface.
+// Defines custom types to avoid syntax error.
 export interface ISongs {
     'songId': number;
     'songName': string;
