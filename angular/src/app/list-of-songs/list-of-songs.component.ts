@@ -1,3 +1,4 @@
+// OnInit is one of the Component Lifecycle Hooks.
 import { Component, OnInit } from '@angular/core';
 // Importing interface:
 import { ISongs } from './songs';
@@ -11,13 +12,27 @@ import { ISongs } from './songs';
   // Pipes transform bound properties before display.
   // Transform dates, numbers, lowercase, etc.
 
-export class ListOfSongsComponent {
+export class ListOfSongsComponent implements OnInit {
   pageTitle: string = 'Folk and Salsa Music';
   // imageWidth: number = 100;
   // imageMargin: number = 2;
   // showImage: boolean = false;
   // In typescript 'any' is a data type.
-  listFilter: string = 'artist';
+
+  // Properties getter and setter.
+  _listFilter: string;
+  get listFilter(): string {
+      return this._listFilter;
+  }
+  // To modify.
+  set listFilter(value: string) {
+      this._listFilter = value;
+      // JavaScript conditional operator.
+      this.filteredSongs = this.listFilter ? this.performFilter(this.listFilter) : this.songs;
+  }
+
+  listFilter: string = '';
+  filteredSongs: ISongs[];
   songs: ISongs[] = [
     {
         'songId': 1,
@@ -141,10 +156,23 @@ export class ListOfSongsComponent {
     },
   ];
 
-//   toggleImage(): void {
-//       this.showImage = !this.showImage;
-//   }
+  constructor() {
+      this.filteredSongs = this.songs;
+      this.listFilter = '';
+  }
 
+  // Perform filter method is defined here:
+  performFilter(filterBy: string): ISongs[] {
+      // Change all letters to lowercase to avoid case sensitive issues.
+      filterBy = filterBy.toLocaleLowerCase();
+      return this.songs.filter((songs: ISongs) =>
+        songs.songName.toLocaleLowerCase().indexOf(filterBy) !== -1) ;
+  }
+
+  // toggleImage(): void {
+  //  this.showImage = !this.showImage;
+  // }
+  ngOnInit(): void {
+    console.log('ListOfSongsComponent is working.');
+  }
 }
-
-// console.log('ListOfSongsComponent is working.');

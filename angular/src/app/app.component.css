@@ -3,14 +3,10 @@
 }
 
 .url {
-    color: #366607;
+    color: #045a8c;
 }
 
 .url:hover {
-    color: #60BA09;
+    color: #109ff2;
     text-decoration: none;
-}
-
-.capitalize {
-    text-transform: capitalize;
 }
