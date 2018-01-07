@@ -1,8 +1,9 @@
 // OnInit is one of the Component Lifecycle Hooks.
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 // Importing interface:
 import { ISongs } from './songs';
 import { StarComponent } from '../shared/star/star.component';
+import { MoreInfoComponent } from '../more-info/more-info.component';
 
 @Component({
   selector: 'app-list-of-songs',
@@ -19,7 +20,7 @@ export class ListOfSongsComponent implements OnInit {
   // imageMargin: number = 2;
   // showImage: boolean = false;
   // In typescript 'any' is a data type.
-
+  
   // Properties getter and setter.
   _listFilter: string;
   get listFilter(): string {
@@ -31,9 +32,7 @@ export class ListOfSongsComponent implements OnInit {
       // JavaScript conditional operator.
       this.filteredSongs = this.listFilter ? this.performFilter(this.listFilter) : this.songs;
   }
-
   filteredSongs: ISongs[];
-  
   songs: ISongs[] = [
     {
         'songId': 1,
@@ -157,23 +156,37 @@ export class ListOfSongsComponent implements OnInit {
     },
   ];
 
+  // Output decorator (is a function).
+  @Output() arrowClicked: EventEmitter<string> = 
+  new EventEmitter <string>();
+
   constructor() {
       this.filteredSongs = this.songs;
       this.listFilter = '';
   }
 
+  ngOnInit(): void {
+    // console.log('ListOfSongsComponent is working.');
+  }
+
   // Perform filter method is defined here:
   performFilter(filterBy: string): ISongs[] {
-      // Change all letters to lowercase to avoid case sensitive issues.
-      filterBy = filterBy.toLocaleLowerCase();
-      return this.songs.filter((songs: ISongs) =>
-        songs.songName.toLocaleLowerCase().indexOf(filterBy) !== -1) ;
+    // Change all letters to lowercase to avoid case sensitive issues.
+    filterBy = filterBy.toLocaleLowerCase();
+    return this.songs.filter((songs: ISongs) =>
+      songs.songName.toLocaleLowerCase().indexOf(filterBy) !== -1) ;
+  }
+
+  onClick() {
+    this.arrowClicked.emit('Arrow clicked!');
+    console.log('Arrow clicked!');
   }
 
   // toggleImage(): void {
   //  this.showImage = !this.showImage;
   // }
-  ngOnInit(): void {
-    console.log('ListOfSongsComponent is working.');
-  }
+
 }
+
+
+

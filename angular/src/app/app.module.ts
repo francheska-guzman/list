@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 
 import { ConvertToArrowPipe } from './shared/convert-to-arrow.pipe';
 import { StarComponent } from './shared/star/star.component';
+import { MoreInfoComponent } from './more-info/more-info.component';
 
 @NgModule({
   // Directives components in pipes are declared in declarations array.
@@ -22,7 +23,8 @@ import { StarComponent } from './shared/star/star.component';
     ListOfSongsComponent,
     FooterComponent,
     ConvertToArrowPipe,
-    StarComponent
+    StarComponent,
+    MoreInfoComponent
   ],
   // Directives from other sources (including Angular itself) 
   // and third parties are declared here:

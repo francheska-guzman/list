@@ -16,4 +16,4 @@ export class AppComponent {
 
 }
 
-console.log('AppComponent is working.');
+// console.log('AppComponent is working.');
