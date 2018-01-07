@@ -11,6 +11,7 @@ export class ListOfSongsComponent {
   // imageMargin: number = 2;
   // showImage: boolean = false;
   // In typescript "any" is a data type.
+  listFilter: string = 'artist';
   songs: any[] = [
     {
         "songId": 1,
