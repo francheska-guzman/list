@@ -6,6 +6,7 @@ export interface ISongs {
     'time': string;
     'artist': string;
     'album': string;
+    'releaseDate': number;
     'genre': string;
     'starRating': number;
     'imageUrl': string;
