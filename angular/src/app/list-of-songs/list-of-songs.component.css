@@ -10,12 +10,11 @@ h3 {
 }
 
 input[type=text] {
-    width: 200px;
+    width: 250px;
 }
 
 .btn {
     padding: 0;
-    margin: 2px;
     background: none !important;
 }
 
@@ -34,7 +33,6 @@ tr {
 }
 
 th {
-    text-align: center;
     background-color: #fafafa;
 }
 
