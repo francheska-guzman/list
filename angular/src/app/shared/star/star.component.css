@@ -5,4 +5,10 @@
 .rating-stars {
     width: 86px;
     margin: auto;
+    cursor: pointer;
+    color: #700505;
+}
+
+.rating-stars:hover {
+	color: #af0a0a;
 }
