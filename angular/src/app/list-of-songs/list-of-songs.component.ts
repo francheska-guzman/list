@@ -16,6 +16,7 @@ import { MoreInfoComponent } from '../more-info/more-info.component';
 
 export class ListOfSongsComponent implements OnInit {
   pageTitle: string = 'Folk and Salsa Music';
+  showRating: string = '';
   // imageWidth: number = 100;
   // imageMargin: number = 2;
   // showImage: boolean = false;
@@ -162,7 +163,7 @@ export class ListOfSongsComponent implements OnInit {
   }
 
   onRatingClicked(message: string): void {
-    this.pageTitle = message;
+      this.showRating = `: ${message}`;
   }
 
   // Perform filter method is defined here:
