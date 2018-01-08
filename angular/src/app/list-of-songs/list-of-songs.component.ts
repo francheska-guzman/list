@@ -86,7 +86,7 @@ export class ListOfSongsComponent implements OnInit {
     {
         'songId': 5,
         'songName': 'Trucutú',
-        'time': '3:24',
+        'time': '5:02',
         'artist': 'Tommy Olivencia',
         'album': 'Planté Bandera',
         'genre': 'Salsa',
