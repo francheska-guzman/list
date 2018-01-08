@@ -16,7 +16,7 @@ Developed by Francheska Guzman
 
 ## <a id="description">Description</a>
 
-A single web app where users can filter within a list of Puerto Rican folk and salsa songs, as well play it for 30 seconds. User will have the option to get more details (i.e. lyrics and album cover) by pressing the arrow button.
+A single web app where users can filter within a list of folk and salsa songs, as well play it for 30 seconds. User will have the option to get more details (i.e. lyrics and album cover) by pressing the arrow button.
 
 ## <a id="technologies-used">Technologies used</a>
 
@@ -24,12 +24,12 @@ A single web app where users can filter within a list of Puerto Rican folk and s
 * CSS
 * Bootstrap
 * TypeScript
-* Angular 2
+* Angular
 * Angular CLI
 
 ## <a id="challenges">Challenges</a>
 
-Create this app while learning Angular 2 on my own.
+- Create this app while learning Angular on my own.
 
 ## <a id="resources">Resources</a>
 
