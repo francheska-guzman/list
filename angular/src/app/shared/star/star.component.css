@@ -6,9 +6,9 @@
     width: 86px;
     margin: auto;
     cursor: pointer;
-    color: #700505;
+    color: #5a6d72;
 }
 
 .rating-stars:hover {
-	color: #af0a0a;
+	color: #045a8c;
 }

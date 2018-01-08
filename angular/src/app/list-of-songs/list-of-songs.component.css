@@ -5,7 +5,7 @@ h2 {
 }
 
 h3 {
-    color: #474646;
+    color: #5a6d72;
     font-size: 16px;
 }
 
@@ -21,6 +21,10 @@ input[type=text] {
 .btn-primary {
     color: #045a8c;
     border: none;
+}
+
+*:focus {
+    outline: none;
 }
 
 .btn-primary:hover {
@@ -42,6 +46,8 @@ td {
 
 .wrapper-filter {
     margin: 20px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .filtered-by {

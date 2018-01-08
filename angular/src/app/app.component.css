@@ -22,3 +22,17 @@ textarea:focus, input:focus{
 *:focus {
     outline: none;
 }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #d8d8d8;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #d8d8d8;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #d8d8d8;
+  }
+:-moz-placeholder { /* Firefox 18- */
+    color: #d8d8d8;
+}
