@@ -1,7 +1,8 @@
 <!-- Property binding. -->
 <div class='crop'
   [style.width.px]='starWidth'
-  [title]='rating'>
+  [title]='rating'
+  (click)='onClick()'>
   <div class='rating-stars'>
     <span class='glyphicon glyphicon-star'></span>
     <span class='glyphicon glyphicon-star'></span>

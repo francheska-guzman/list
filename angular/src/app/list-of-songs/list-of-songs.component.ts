@@ -1,5 +1,5 @@
 // OnInit is one of the Component Lifecycle Hooks.
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 // Importing interface:
 import { ISongs } from './songs';
 import { StarComponent } from '../shared/star/star.component';
@@ -156,17 +156,13 @@ export class ListOfSongsComponent implements OnInit {
     },
   ];
 
-  // Output decorator (is a function).
-  @Output() arrowClicked: EventEmitter<string> = 
-  new EventEmitter <string>();
-
   constructor() {
       this.filteredSongs = this.songs;
       this.listFilter = '';
   }
 
-  ngOnInit(): void {
-    // console.log('ListOfSongsComponent is working.');
+  onRatingClicked(message: string): void {
+    this.pageTitle = message;
   }
 
   // Perform filter method is defined here:
@@ -177,14 +173,13 @@ export class ListOfSongsComponent implements OnInit {
       songs.songName.toLocaleLowerCase().indexOf(filterBy) !== -1) ;
   }
 
-  onClick() {
-    this.arrowClicked.emit('Arrow clicked!');
-    console.log('Arrow clicked!');
-  }
-
   // toggleImage(): void {
   //  this.showImage = !this.showImage;
   // }
+
+  ngOnInit(): void {
+    // console.log('ListOfSongsComponent is working.');
+  }
 
 }
 

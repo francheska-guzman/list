@@ -1,3 +1,7 @@
+.crop {
+    overflow: hidden;
+}
+
 .rating-stars {
     width: 86px;
     margin: auto;
