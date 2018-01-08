@@ -16,7 +16,7 @@ Developed by Francheska Guzman
 
 ## <a id="description">Description</a>
 
-A single web app where users can filter within a list of folk and salsa songs, as well play a song for 30 seconds. Each song will have modal to display the lyrics and album cover.
+A single web app where users can filter within a list of Puerto Rican folk and salsa songs, as well play it for 30 seconds. User will have the option to get more details (i.e. lyrics and album cover) by pressing the arrow button.
 
 ## <a id="technologies-used">Technologies used</a>
 
