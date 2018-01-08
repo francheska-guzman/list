@@ -85,6 +85,18 @@ export class ListOfSongsComponent implements OnInit {
     },
     {
         'songId': 5,
+        'songName': 'Trucutú',
+        'time': '3:24',
+        'artist': 'Tommy Olivencia',
+        'album': 'Planté Bandera',
+        'genre': 'Salsa',
+        'starRating': 4.7,
+        'imageUrl': 'https://i.scdn.co/image/08fc80299210cce3beb3eb62f4ca15c925fcf2a9',
+        'songUrl': '',
+        'songLyrics': ''
+    },
+    {
+        'songId': 6,
         'songName': 'Brujería',
         'time': '3:24',
         'artist': 'El Gran Combo de Puerto Rico',
@@ -96,7 +108,7 @@ export class ListOfSongsComponent implements OnInit {
         'songLyrics': ''
     },
     {
-        'songId': 6,
+        'songId': 7,
         'songName': 'Así es mi Tierra',
         'time': '4:23',
         'artist': 'Los Hispanos',
@@ -108,7 +120,7 @@ export class ListOfSongsComponent implements OnInit {
         'songLyrics': ''
     },
     {
-        'songId': 7,
+        'songId': 8,
         'songName': 'Valió la pena',
         'time': '4:52',
         'artist': 'Marc Anthony',
@@ -120,7 +132,7 @@ export class ListOfSongsComponent implements OnInit {
         'songLyrics': ''
     },
     {
-        'songId': 8,
+        'songId': 9,
         'songName': 'Perdóname',
         'time': '7:55',
         'artist': 'Gilberto Santa Rosa',
@@ -132,7 +144,7 @@ export class ListOfSongsComponent implements OnInit {
         'songLyrics': ''
     },
     {
-        'songId': 9,
+        'songId': 10,
         'songName': 'Defensa al Jíbaro',
         'time': '3:58',
         'artist': 'Quique Domenech (feat. Tony Croatto)',
@@ -144,7 +156,7 @@ export class ListOfSongsComponent implements OnInit {
         'songLyrics': ''
     },
     {
-        'songId': 10,
+        'songId': 11,
         'songName': 'Yambeque',
         'time': '6:22',
         'artist': 'La Sonora Ponceña',
