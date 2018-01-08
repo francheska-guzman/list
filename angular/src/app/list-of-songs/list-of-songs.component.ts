@@ -179,6 +179,18 @@ export class ListOfSongsComponent implements OnInit {
         'songUrl': '',
         'songLyrics': ''
     },
+    {
+        'songId': 13,
+        'songName': 'Aguinaldo Jíbaro',
+        'time': '3:45',
+        'artist': 'Quique Domenech',
+        'album': 'Lo Mejor de Quique Domenech',
+        'genre': 'Folk',
+        'starRating': 4.7,
+        'imageUrl': 'https://i.scdn.co/image/3c3fa25c32e690e9f23f53c2d1ccef500398af71',
+        'songUrl': '',
+        'songLyrics': ''
+    },
   ];
 
   constructor() {
