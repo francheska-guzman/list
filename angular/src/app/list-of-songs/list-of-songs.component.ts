@@ -69,6 +69,3 @@ export class ListOfSongsComponent implements OnInit {
   }
 
 }
-
-
-

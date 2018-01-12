@@ -107,8 +107,8 @@ export class SongsService {
                 "genre": "Salsa",
                 "starRating": 4.4,
                 "imageUrl": "https://i.scdn.co/image/3529b62882eb34f27558d89c3df11c33f22b8a46",
-                "songUrl": "",
-                "songLyrics": ""
+                "songUrl": " ",
+                "songLyrics": " "
             },
             {
                 "songId": 9,
