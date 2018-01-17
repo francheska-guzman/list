@@ -1,15 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 // We import { FormsModule } to be able to use, for i.e.
 // the directive [(ngModel)] used in SongListComponent.
 import { FormsModule } from '@angular/forms';
+import { NgModule } from '@angular/core';
+
 import { HttpClientModule } from '@angular/common/http';
 
 // Importing components.
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SongListComponent } from './song-list/song-list.component';
-import { SongDetailComponent } from './song-detail/song-detail.component'import { BrowserModule } from '@angular/platform-browser';
+import { SongDetailComponent } from './song-detail/song-detail.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { ConvertToArrowPipe } from './shared/convert-to-arrow.pipe';
