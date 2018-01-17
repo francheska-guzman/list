@@ -9,8 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 // Importing components.
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { SongListComponent } from './song-list/song-list.component';
-import { SongDetailComponent } from './song-detail/song-detail.component';
+import { SongListComponent } from './songs/song-list.component';
+import { SongDetailComponent } from './songs/song-detail.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { ConvertToArrowPipe } from './shared/convert-to-arrow.pipe';
