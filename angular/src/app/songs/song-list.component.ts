@@ -1,7 +1,6 @@
 // OnInit is one of the Component Lifecycle Hooks.
 import { Component, OnInit } from '@angular/core';
 import { StarComponent } from '../shared/star/star.component';
-import { MoreInfoComponent } from '../more-info/more-info.component';
 
 // Data type.
 import { ISong } from './song';
