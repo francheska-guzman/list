@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // We import { FormsModule } to be able to use, for i.e.
-// the directive [(ngModel)] used in ListOfSongsComponent.
+// the directive [(ngModel)] used in SongListComponent.
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -9,11 +9,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SongListComponent } from './song-list/song-list.component';
+import { SongDetailComponent } from './song-detail/song-detail.component'import { BrowserModule } from '@angular/platform-browser';
 import { FooterComponent } from './footer/footer.component';
 
 import { ConvertToArrowPipe } from './shared/convert-to-arrow.pipe';
 import { StarComponent } from './shared/star/star.component';
-import { MoreInfoComponent } from './more-info/more-info.component';
 
 @NgModule({
   // Directives components in pipes are declared in declarations array.
@@ -21,10 +21,10 @@ import { MoreInfoComponent } from './more-info/more-info.component';
     AppComponent,
     HomeComponent,
     SongListComponent,
+    SongDetailComponent,
     FooterComponent,
     ConvertToArrowPipe,
-    StarComponent,
-    MoreInfoComponent
+    StarComponent
   ],
   // Directives from other sources (including Angular itself) 
   // and third parties are declared here:
