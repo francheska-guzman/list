@@ -1,14 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 // We import { FormsModule } to be able to use, for i.e.
 // the directive [(ngModel)] used in ListOfSongsComponent.
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 // Importing components.
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { ListOfSongsComponent } from './list-of-songs/list-of-songs.component';
+import { SongListComponent } from './song-list/song-list.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { ConvertToArrowPipe } from './shared/convert-to-arrow.pipe';
@@ -20,7 +20,7 @@ import { MoreInfoComponent } from './more-info/more-info.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    ListOfSongsComponent,
+    SongListComponent,
     FooterComponent,
     ConvertToArrowPipe,
     StarComponent,
@@ -30,7 +30,8 @@ import { MoreInfoComponent } from './more-info/more-info.component';
   // and third parties are declared here:
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]

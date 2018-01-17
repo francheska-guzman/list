@@ -4,25 +4,26 @@ import { StarComponent } from '../shared/star/star.component';
 import { MoreInfoComponent } from '../more-info/more-info.component';
 
 // Data type.
-import { ISongs } from './songs';
+import { ISong } from './song';
 // Service.
-import { SongsService } from './songs.service';
+import { SongService } from './song.service';
 
 @Component({
-  selector: 'app-list-of-songs',
-  templateUrl: './list-of-songs.component.html',
-  styleUrls: ['../app.component.css', './list-of-songs.component.css']
+  selector: 'app-song-list',
+  templateUrl: './song-list.component.html',
+  styleUrls: ['../app.component.css', './song-list.component.css']
 })
 
   // Pipes transform bound properties before display.
   // Transform dates, numbers, lowercase, etc.
 
-export class ListOfSongsComponent implements OnInit {
+export class SongListComponent implements OnInit {
   pageTitle: string = 'Folk and Salsa Music';
   showRating: string = '';
   // imageWidth: number = 100;
   // imageMargin: number = 2;
   // showImage: boolean = false;
+  errorMessage: string;
   // In typescript 'any' is a data type.
   // Properties getter and setter.
   _listFilter: string;
@@ -36,13 +37,13 @@ export class ListOfSongsComponent implements OnInit {
       this.filteredSongs = this.listFilter ? this.performFilter(this.listFilter) : this.songs;
   }
 
-  filteredSongs: ISongs[];
-  songs: ISongs[] = [];
+  filteredSongs: ISong[];
+  songs: ISong[] = [];
 
 // Short hand syntax to define a dependency.
 // Injecting the service.
 // private is the access keyboard.
-  constructor(private _songsService: SongsService) {
+  constructor(private _songService: SongService) {
       // this.listFilter = '';
   }
 
@@ -51,20 +52,25 @@ export class ListOfSongsComponent implements OnInit {
   }
 
   // Perform filter method is defined here:
-  performFilter(filterBy: string): ISongs[] {
+  performFilter(filterBy: string): ISong[] {
     // Change all letters to lowercase to avoid case sensitive issues.
     filterBy = filterBy.toLocaleLowerCase();
-    return this.songs.filter((songs: ISongs) =>
-      songs.songName.toLocaleLowerCase().indexOf(filterBy) !== -1) ;
+    return this.songs.filter((song: ISong) =>
+      song.songName.toLocaleLowerCase().indexOf(filterBy) !== -1) ;
   }
 
   // toggleImage(): void {
   //  this.showImage = !this.showImage;
   // }
 
+  // <any>error is a casting operator.
   ngOnInit(): void {
-    this.songs = this._songsService.getSongs();
-    this.filteredSongs = this.songs;
+    this._songService.getSongs()
+        .subscribe(songs => {
+          this.songs = songs;
+          this.filteredSongs = this.songs;
+        },
+          error => this.errorMessage = <any>error);
     // console.log('ListOfSongsComponent is working.');
   }
 

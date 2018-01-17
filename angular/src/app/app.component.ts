@@ -1,10 +1,10 @@
 // We need to 'import' { the Component decorator } from 'the Angular library module'.
 import { Component } from '@angular/core';
 import { HomeComponent } from './home/home.component';
-import { ListOfSongsComponent } from './list-of-songs/list-of-songs.component';
+import { SongListComponent } from './song-list/song-list.component';
 
 // Importing the provider.
-import { SongsService } from './list-of-songs/songs.service';
+import { SongService } from './song-list/song.service';
 
 // Component decorator.
 @Component({
@@ -13,7 +13,7 @@ import { SongsService } from './list-of-songs/songs.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   // Register the provider.
-  providers: [ SongsService ]
+  providers: [ SongService ]
 })
 
 // The 'export' keyboard is used so other components can use this class.

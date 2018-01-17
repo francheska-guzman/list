@@ -1,6 +1,6 @@
 // Using the 'I' prefex to distinguish the interface.
 // Defines custom types to avoid syntax error.
-export interface ISongs {
+export interface ISong {
     songId: number;
     songName: string;
     time: string;
