@@ -3,14 +3,17 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-    <h1>{{ pageTitle }}</h1>
-    <!-- Data binding (interpolation).
-    'pageTitle' is a template expression. -->`,
+    <div>
+      <h2>{{ pageTitle }}</h2>
+      <!-- Data binding (interpolation).
+      'pageTitle' is a template expression. -->
+      <div id='homepage'></div>
+    </div>`,
   styleUrls: ['../app.component.css', './home.component.css']
 })
 export class HomeComponent {
   // Name that we will be using for binding, type and default value.
-  pageTitle: string = 'Rhythm';
+  pageTitle: string = 'Home';
 
   constructor() { }
 

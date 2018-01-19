@@ -18,7 +18,7 @@ import { SongService } from './songs/song.service';
 
 // The 'export' keyboard is used so other components can use this class.
 export class AppComponent {
-
+  pageTitle: string = 'Rhythm';
 }
 
 // console.log('AppComponent is working.');

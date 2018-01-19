@@ -36,3 +36,20 @@ textarea:focus, input:focus{
 :-moz-placeholder { /* Firefox 18- */
     color: #d8d8d8;
 }
+
+h1 {
+    text-align: center;
+    color: #474646;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #757474;
+    font-size: 25px;
+}
+
+h3 {
+    color: #5a6d72;
+    font-size: 16px;
+}
