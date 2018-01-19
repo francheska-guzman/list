@@ -73,9 +73,9 @@
             <td>{{ song.genre }}</td>
             <td>
               <!-- Nested component to show the stars. Directive. -->
-              <app-star [rating]='song.starRating' 
+              <star [rating]='song.starRating' 
                         (ratingClicked)='onRatingClicked($event)'>
-              </app-star>
+              </star>
             </td>
             <td>
               <button class='btn btn-primary glyphicon glyphicon-arrow-right'></button>

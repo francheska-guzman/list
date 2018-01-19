@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'footer',
   // This is an inline template. Is an excellent option when is a short code.
   template: `
   <p class='footer'>

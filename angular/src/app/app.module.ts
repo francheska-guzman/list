@@ -14,7 +14,8 @@ import { FooterComponent } from './footer/footer.component';
 
 import { ConvertToArrowPipe } from './shared/convert-to-arrow.pipe';
 import { StarComponent } from './shared/star/star.component';
-import { FourOFourComponent } from './four-o-four/four-o-four.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   // Directives components in pipes are declared in declarations array.
@@ -26,7 +27,8 @@ import { FourOFourComponent } from './four-o-four/four-o-four.component';
     FooterComponent,
     ConvertToArrowPipe,
     StarComponent,
-    FourOFourComponent
+    PageNotFoundComponent,
+    NavigationComponent
   ],
   // Directives from other sources (including Angular itself) and third parties are declared here:
   imports: [
@@ -38,7 +40,7 @@ import { FourOFourComponent } from './four-o-four/four-o-four.component';
       { path: 'songs/:id', component: SongDetailComponent },
       { path: 'home', component: HomeComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: '**', component: FourOFourComponent }
+      { path: '**', component: PageNotFoundComponent }
     ])
   ],
   providers: [],
