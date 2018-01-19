@@ -39,7 +39,7 @@ import { FourOFourComponent } from './four-o-four/four-o-four.component';
       { path: 'home', component: HomeComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', component: FourOFourComponent }
-    ], { useHash: true })
+    ])
   ],
   providers: [],
   bootstrap: [ AppComponent ]

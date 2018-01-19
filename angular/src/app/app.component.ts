@@ -1,7 +1,5 @@
 // We need to 'import' { the Component decorator } from 'the Angular library module'.
 import { Component } from '@angular/core';
-import { HomeComponent } from './home/home.component';
-import { SongListComponent } from './songs/song-list.component';
 
 // Importing the provider.
 import { SongService } from './songs/song.service';
