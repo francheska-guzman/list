@@ -25,7 +25,7 @@ export class SongDetailComponent implements OnInit {
   	// The plus + is a JS shortcut to convert the parameter string to numeric.
   	let id = +this._route.snapshot.paramMap.get('id');
   	this.song = {
-  		"songName": "Test";
+  		"songName": "Test"
   	}
   }
 
