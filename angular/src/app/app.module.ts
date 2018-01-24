@@ -38,6 +38,7 @@ import { NavigationComponent } from './navigation/navigation.component';
     RouterModule.forRoot([
       { path: 'songs', component: SongListComponent },
       { path: 'songs/:id', component: SongDetailComponent },
+      // :id is to render SongDetailComponent.
       { path: 'home', component: HomeComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', component: PageNotFoundComponent }
