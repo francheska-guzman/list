@@ -26,7 +26,16 @@ export class SongDetailComponent implements OnInit {
   	let id = +this._route.snapshot.paramMap.get('id');
   	this.song = {
   		"songId": id,
-  		"songName": "Test"
+        "songName": "La Fiesta de Pilito",
+        "time": "3:55",
+        "artist": "El Gran Combo de Puerto Rico",
+        "album": "Nuestra Música",
+        "releaseDate": 1985,
+        "genre": "Salsa",
+        "starRating": 4.5,
+        "imageUrl": "https://i.scdn.co/image/404f1635238ba205e075539a174482ef432e4269",
+        "songUrl": " ",
+        "songLyrics": " "
   	}
   }
 
