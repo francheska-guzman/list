@@ -1,5 +1,5 @@
-.wrapper {
-    margin: 50px;
+body {
+    font-family: helvetica;
 }
 
 .url {
@@ -45,11 +45,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #757474;
+    color: #3a3838;
     font-size: 25px;
-}
-
-h3 {
-    color: #5a6d72;
-    font-size: 16px;
+    margin: 10px 0;
 }

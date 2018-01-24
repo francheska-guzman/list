@@ -6,6 +6,5 @@ p.footer {
 }
 
 .url {
-    font-family: 'Tangerine', cursive;
-    font-size: 40px;
+	text-decoration: none;
 }

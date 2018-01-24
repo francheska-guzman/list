@@ -2,12 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   template: `
-    <div>
-      <h2>{{ pageTitle }}</h2>
-      <!-- Data binding (interpolation).
-      'pageTitle' is a template expression. -->
-      <div id='homepage'></div>
-    </div>`,
+    <h2>{{ pageTitle }}</h2>
+    <!-- Data binding (interpolation).
+    'pageTitle' is a template expression. -->
+    <div id='homepage'></div>`,
   styleUrls: ['../app.component.css', './home.component.css']
 })
 export class HomeComponent {
