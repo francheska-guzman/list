@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 import { ISong } from './song';
 
@@ -11,7 +12,9 @@ export class SongDetailComponent implements OnInit {
   pageTitle: string = 'Song Detail';
   song: ISong;
 
-  constructor() { }
+  constructor(private _route: ActivatedRoute) { 
+  	console.log(this._route.snapshot.paramMap.get('id'));
+  }
 
   ngOnInit() {
   }

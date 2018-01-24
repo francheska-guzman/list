@@ -78,7 +78,9 @@
               </star>
             </td>
             <td>
-              <button class='btn btn-primary glyphicon glyphicon-arrow-right'></button>
+              <a [routerLink]="['/songs', song.songId]">
+                <button class='btn btn-primary glyphicon glyphicon-arrow-right'></button>
+              </a>
             </td>
           </tr>
         </tbody>
