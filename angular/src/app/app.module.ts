@@ -16,6 +16,7 @@ import { ConvertToArrowPipe } from './shared/convert-to-arrow.pipe';
 import { StarComponent } from './shared/star/star.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { SongGuardService } from './songs/song-guard.service';
 
 @NgModule({
   // Directives components in pipes are declared in declarations array.
@@ -37,14 +38,17 @@ import { NavigationComponent } from './navigation/navigation.component';
     HttpClientModule,
     RouterModule.forRoot([
       { path: 'songs', component: SongListComponent },
-      { path: 'songs/:id', component: SongDetailComponent },
+      { path: 'songs/:id',
+        canActivate: [ SongGuardService ],
+        component: SongDetailComponent },
       // :id is to render SongDetailComponent.
+      // The SongGuardService prevents navigation if ID is not valid (i.e. not a number).
       { path: 'home', component: HomeComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', component: PageNotFoundComponent }
     ])
   ],
-  providers: [],
+  providers: [ SongGuardService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
