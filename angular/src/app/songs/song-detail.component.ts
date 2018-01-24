@@ -9,7 +9,6 @@ import { SongService } from './song.service';
   styleUrls: ['../app.component.css', './song-detail.component.css']
 })
 export class SongDetailComponent implements OnInit {
-  pageTitle: string = 'Song Detail';
   song: ISong;
   errorMessage: string;
 

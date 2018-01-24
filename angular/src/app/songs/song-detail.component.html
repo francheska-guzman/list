@@ -1,5 +1,5 @@
 <div class='panel panel-primary' *ngIf='song'>
-  <h2>{{pageTitle + ': ' + song.songName}}</h2>
+  <h2>{{song.songName + ' by ' + song.artist}}</h2>
   <div>
     <img class='album-image' [src]='song.imageUrl' [title]='song.songName'>
   </div>
