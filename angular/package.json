@@ -6,8 +6,8 @@
     "deploy": "ng build -sm -ec -bh /repo name/ & ngh --no-silent",
     "ng": "ng",
     "start": "ng serve -o",
-    "build": "ng build --prod --base-href \"https://francheska-guzman.github.io/rhythm/\"",
-    "pages": "angular-cli-ghpages [OPTIONS]",
+    "build": "ng build --prod --base-href \"https://francheska-guzman.github.io/rhythm/\" && npm run ghpages",
+    "ghpages": "angular-cli-ghpages [OPTIONS]",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
