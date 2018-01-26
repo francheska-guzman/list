@@ -3,7 +3,7 @@ import { Component, OnChanges, Input, Output, EventEmitter } from '@angular/core
 @Component({
   selector: 'star',
   templateUrl: './star.component.html',
-  styleUrls: ['../../app.component.css', './star.component.css']
+  styleUrls: ['../app.component.css', './star.component.css']
 })
 export class StarComponent implements OnChanges {
   // The Input decorator is a function, thats why the ().

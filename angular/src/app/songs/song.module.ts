@@ -7,7 +7,6 @@ import { SharedModule } from '../shared/shared.module';
 // Declarations
 import { SongListComponent } from './song-list.component';
 import { SongDetailComponent } from './song-detail.component';
-import { ConvertToArrowPipe } from '../shared/convert-to-arrow.pipe';
 
 // Providers
 import { SongService } from './song.service';
@@ -27,8 +26,7 @@ import { SongGuardService } from './song-guard.service';
   ],
   declarations: [
     SongListComponent,
-    SongDetailComponent,
-    ConvertToArrowPipe
+    SongDetailComponent
   ],
   providers: [
     SongService,
