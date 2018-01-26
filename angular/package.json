@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "deploy": "ng build -sm -ec -bh /repo name/ & ngh --no-silent",
+    "deploy": "npm run build && npm run ghpages",
     "ng": "ng",
     "start": "ng serve -o",
-    "build": "ng build --prod --base-href \"https://francheska-guzman.github.io/rhythm/\" && npm run ghpages",
+    "build": "ng build --prod --base-href \"https://francheska-guzman.github.io/rhythm/\"",
     "ghpages": "angular-cli-ghpages [OPTIONS]",
     "test": "ng test",
     "lint": "ng lint",
