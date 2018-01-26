@@ -2,23 +2,23 @@ import { NgModule } from '@angular/core';
 
 // Declarations
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
+import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 // Imports
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { RouterModule } from '@angular/router';
 import { SongModule } from './songs/song.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   // Directives components in pipes are declared in declarations array.
   declarations: [
     AppComponent,
-    NavigationComponent,
     HomeComponent,
+    NavigationComponent,
     FooterComponent,
     PageNotFoundComponent
   ],
@@ -26,12 +26,8 @@ import { SongModule } from './songs/song.module';
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot([
-      { path: 'home', component: HomeComponent },
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: '**', component: PageNotFoundComponent }
-    ]),
-    SongModule
+    SongModule,
+    AppRoutingModule
   ],
   bootstrap: [ AppComponent ]
 })

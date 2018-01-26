@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 
 // Imports
-import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
+import { SongRoutingModule } from './song-routing.module';
 
 // Declarations
 import { SongListComponent } from './song-list.component';
@@ -14,15 +14,8 @@ import { SongGuardService } from './song-guard.service';
 
 @NgModule({
   imports: [
-    RouterModule.forChild([
-      { path: 'songs', component: SongListComponent },
-      { path: 'songs/:id',
-        canActivate: [ SongGuardService ],
-        component: SongDetailComponent },
-        // :id is to render SongDetailComponent.
-        // The SongGuardService prevents navigation if ID is not valid (i.e. not a number).
-    ]),
-    SharedModule
+    SharedModule,
+    SongRoutingModule
   ],
   declarations: [
     SongListComponent,
