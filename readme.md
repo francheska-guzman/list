@@ -35,6 +35,7 @@ A single web app where users can filter within a list of folk and salsa songs, a
 
 - [Angular Documentation](https://angular.io/guide/quickstart)
 - [Angular: Getting Started (Pluralsight)](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents) by Deborah Kurata
+- [Getting Started with TypeScript](https://app.pluralsight.com/library/courses/typescript-getting-started/table-of-contents) by Brice Wilson
 
 ## <a id="deployment">How to see</a>
 
