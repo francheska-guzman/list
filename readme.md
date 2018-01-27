@@ -23,7 +23,7 @@ A single web app where users can filter within a list of folk and salsa songs, a
 * HTML
 * CSS
 * Bootstrap
-* TypeScript
+* TypeScript (a language for application-scale JavaScript)
 * Angular
 * Angular CLI
 
@@ -33,7 +33,8 @@ A single web app where users can filter within a list of folk and salsa songs, a
 
 ## <a id="resources">Resources</a>
 
-- [Angular Documentation](https://angular.io/guide/quickstart)
+- [Angular Documentation](https://angular.io/guide/quickstart) by Google
+- [TypeScript Documentation](http://www.typescriptlang.org/docs/home.html) by Microsoft
 - [Angular: Getting Started (Pluralsight)](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents) by Deborah Kurata
 - [Getting Started with TypeScript (Pluralsight)](https://app.pluralsight.com/library/courses/typescript-getting-started/table-of-contents) by Brice Wilson
 
