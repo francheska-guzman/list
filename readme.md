@@ -40,6 +40,6 @@ A single web app where users can filter within a list of folk and salsa songs, a
 
 ## <a id="deployment">How to see</a>
 
-### Rhythm App: [https://francheska-guzman.github.io/rhythm](https://francheska-guzman.github.io/rhythm)
+### Rhythm App: URL soon
 
 #### [Go back to the Table of Contents](#project)
