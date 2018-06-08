@@ -1,0 +1,59 @@
+input[type=text] {
+    width: 250px;
+}
+
+.btn {
+    padding: 0;
+    background: none !important;
+}
+
+.btn-primary {
+    color: #045a8c;
+    border: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+.btn-primary:hover {
+    color: #109ff2;
+}
+
+tr {
+    border: .1px;
+    border-color: #f2f2f2;
+}
+
+th {
+    background-color: #fafafa;
+}
+
+td {
+    font-size: 14px;
+}
+
+.wrapper-filter {
+    margin: 20px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.filtered-by {
+    text-transform: capitalize;
+    color: #045a8c;
+}
+
+.even {
+    background-color: #fcfcfc;
+}
+
+.odd {
+    background-color: #fefefe;
+}
+
+.results-text {
+    color: #3a3838;
+    font-size: 20px;
+    margin: 10px 0;
+}

@@ -1,0 +1,14 @@
+.crop {
+    overflow: hidden;
+}
+
+.rating-stars {
+    width: 86px;
+    margin: auto;
+    cursor: pointer;
+    color: #5a6d72;
+}
+
+.rating-stars:hover {
+	color: #045a8c;
+}

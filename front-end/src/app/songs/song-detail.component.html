@@ -1,0 +1,11 @@
+<div class='panel' *ngIf='song'>
+  <h2>{{song.songName + ' by ' + song.artist}}</h2>
+  <div>
+    <img class='album-image' [src]='song.imageUrl' [title]='song.songName'>
+  </div>
+  <div class='panel-footer'>
+	<a class='btn btn-default btn-back' (click)='onBack()'>
+		<i class='glyphicon glyphicon-chevron-left'></i> Back 
+	</a>
+  </div>
+</div>
